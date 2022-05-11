@@ -1,0 +1,266 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.error {
+    color: red;
+    font-weight: 400;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 10px;
+    margin-right: 300px;
+}
+.errorEmpty {
+    color: red;
+    font-weight: 400;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 10px;
+    margin-right: 150px;
+}
+
+.inputField {
+    height: 48px;
+    width: 374px;
+    font-size:  1rem;
+    border: 1px solid #DADCE0;
+    border-radius: .5rem;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+
+input::placeholder {
+    font: 400 16px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.formWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(194, 194, 194, 0.97);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: #202124;
+    padding-bottom: 0;
+    padding-top: 16px;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    margin-bottom: -10px;
+    margin-top: 0;
+    word-break: break-word;
+}
+
+.oblZ {
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-top: 8px;
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+
+}
+
+svg {
+    margin-top: 43px;
+}
+
+
+.emailBlock {
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.forgotEmail {
+    border-radius: 4px;
+    color: #1a73e8;
+    font-weight: 550;
+    letter-spacing: .25px;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0;
+    border: 0;
+    margin-right: 190px;
+    margin-top: 10px;
+}
+
+.anotherPC {
+    margin-left: 36px;
+    color: #5f6368;
+}
+
+
+.additional {
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+}
+
+.createAcc {
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.lastBtns {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'a'  'b' ;
+
+}
+
+.createAcc {
+    grid-area: a;
+    border-radius: 4px;
+    color: #1a73e8;
+    font-weight: 550;
+    letter-spacing: .25px;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    border: 0;
+    margin-right:7px ;
+    margin-top: 10px;
+}
+
+.submitBtn {
+    background-color: #1a73e8;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    margin-left:  105px;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+}
+.selectLang{
+    margin-top:660px;
+    margin-left: 112%;
+}
+
+.optionStyle{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+}
+
+
+.selectStyle{
+    border-style: none;
+    border-radius: 5px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+    cursor: pointer;
+
+}
+
+
+footer{
+    display:inline-flex;
+}
+
+.select:after {
+    content: "▼";
+    padding: 0 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+
+}
+
+ul{
+    display: flex;
+    marker: none;
+    cursor: pointer;
+    margin-top: 660px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 40px;
+}
+
+.textInLi{
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    color:#757575;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+ @media screen and (max-width: 910px)  {
+     .selectLang{
+         margin-left: 130px;
+     }
+
+     .error{
+         margin-right: 150px;
+     }
+}
+
+.labelStyle{
+    position: absolute;
+    background-color: #fff;
+    color: #80868B;;
+    font-size: 1rem;;
+    transition: .3s;
+    margin-top: 15px;
+    margin-right: 90px;
+}
+
+
+.inputField:focus + .labelStyle{
+    top: 165px;
+    left: 50px;
+    color: #1A73E8;;
+    font-size: 13px;
+    font-weight: 500;
+    z-index: 10;
+    padding: 0 .25rem;
+}
+
+
+
+.inputField:focus{
+    border: 1.5px solid #1A73E8;
+}
